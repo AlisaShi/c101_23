@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int multiplication(int i,int j){
-  if(i!=10){
+  if(i<=9){
     if(j==9){
       printf("%d*%d=%d \n",i,j,i*j);
       //printf("Hello World\n");
